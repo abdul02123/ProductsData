@@ -3,8 +3,8 @@ package com.android.product.domain.model.response
 import java.io.Serializable
 
 data class ProductListResponse(
-    private val limit: Int?,
-    private val products: List<Product>?,
-    private val skip: Int?,
-    private val total: Int?
+     val limit: Int?,
+     val products: ArrayList<Product>,
+     val skip: Int?,
+     val total: Int?
 ): Serializable
