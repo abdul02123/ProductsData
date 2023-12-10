@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="products">Products</string>
+    <string name="brand">This is the brand</string>
+    <string name="category">category</string>
+    <string name="description">Description</string>
 </resources>
