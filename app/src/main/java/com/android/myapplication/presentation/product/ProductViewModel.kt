@@ -5,9 +5,10 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.android.myapplication.data.repository.ProductRepository
 import com.android.myapplication.domain.model.response.ProductListResponse
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
-
+@HiltViewModel
 class ProductViewModel @Inject constructor(private val productRepository: ProductRepository) :
     ViewModel() {
 
