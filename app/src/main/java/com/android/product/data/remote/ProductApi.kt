@@ -1,6 +1,6 @@
-package com.android.myapplication.data.remote
+package com.android.product.data.remote
 
-import com.android.myapplication.domain.model.response.ProductListResponse
+import com.android.product.domain.model.response.ProductListResponse
 import retrofit2.Response
 import retrofit2.http.GET
 

@@ -1,4 +1,4 @@
-package com.android.myapplication.domain.model.response
+package com.android.product.domain.model.response
 
 import java.io.Serializable
 

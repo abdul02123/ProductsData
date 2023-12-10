@@ -1,9 +1,9 @@
-package com.android.myapplication.presentation.product
+package com.android.product.presentation.product
 
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import com.android.myapplication.utils.NetworkUtil
+import com.android.product.utils.NetworkUtil
 import com.example.myapplication.R
 import dagger.hilt.android.AndroidEntryPoint
 

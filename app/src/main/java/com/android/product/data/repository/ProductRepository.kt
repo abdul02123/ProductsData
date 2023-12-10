@@ -1,7 +1,7 @@
-package com.android.myapplication.data.repository
+package com.android.product.data.repository
 
-import com.android.myapplication.data.remote.ProductApi
-import com.android.myapplication.domain.model.response.ProductListResponse
+import com.android.product.data.remote.ProductApi
+import com.android.product.domain.model.response.ProductListResponse
 import retrofit2.Response
 import javax.inject.Inject
 

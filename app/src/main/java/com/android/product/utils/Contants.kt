@@ -1,4 +1,4 @@
-package com.android.myapplication.utils
+package com.android.product.utils
 
 object Constants {
 

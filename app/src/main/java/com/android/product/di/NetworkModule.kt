@@ -1,7 +1,7 @@
-package com.android.myapplication.di
+package com.android.product.di
 
-import com.android.myapplication.data.remote.ProductApi
-import com.android.myapplication.utils.Constants.BASE_URL
+import com.android.product.data.remote.ProductApi
+import com.android.product.utils.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

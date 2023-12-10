@@ -1,10 +1,10 @@
-package com.android.myapplication.presentation.product
+package com.android.product.presentation.product
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.android.myapplication.data.repository.ProductRepository
-import com.android.myapplication.domain.model.response.ProductListResponse
+import com.android.product.data.repository.ProductRepository
+import com.android.product.domain.model.response.ProductListResponse
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
