@@ -14,9 +14,10 @@ import retrofit2.converter.gson.GsonConverterFactory
 class NetworkModule {
 
     @Provides
-    fun provideRetrofit(): Retrofit{
+    fun provideRetrofit(interceptor: RequestInterceptor): Retrofit{
         return Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
+             .client(interceptor.getInterceptor())
             .baseUrl(BASE_URL).build()
     }
 
